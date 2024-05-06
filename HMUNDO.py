@@ -1,3 +1,3 @@
 print:(''hola mundo'');
-name = "ignacio"
+name="ignacio";
 print("hola soy", name);
