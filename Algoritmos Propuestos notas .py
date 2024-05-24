@@ -21,4 +21,3 @@ print("Su nota minima es", (Paz_nota_minima))
 Promedio_curso = round(sum(Total_notas))/3
 
 print("El promedio general del curso es", Promedio_curso)
-

@@ -1,4 +1,8 @@
-
-Descripcion_articulo = "Este lápiz solo tiene formato de color azul"
-Larga = len(descripcion_articulo) > 50
-print("Este lápiz solo tiene formato de color azul")
+Descripcion = "Este lapiz azul es de tinta"
+Descripcion = Descripcion[:50]
+longitud = len(Descripcion) > 50 
+print(type(longitud))
+descripcion_10 = Descripcion[:10]
+print(f"\nDescripción: {Descripcion}")
+print(f"¿El tamaño de la cadena descripción es mayor a 50 caracteres? {longitud}")
+print(f"Los primeros 10 caracteres de la descripción: {Descripcion_10}")
